@@ -1,0 +1,99 @@
+.global-header {
+    text-align: center;
+    margin: 20px 0;
+    font-family: sans-serif;
+}
+
+.global-header h1 {
+    font-size: 48px;
+    color: #6D0000;
+}
+
+.global-header h2 {
+    font-size: 24px;
+    color: #6D0000;
+}
+
+.global-navigation {
+    height: 22px;
+    background-color: #440000;
+    padding: 10px 20px;
+    -webkit-border-top-left-radius: 25px;
+    -webkit-border-top-right-radius: 25px;
+    -moz-border-radius-topleft: 25px;
+    -moz-border-radius-topright: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.global-navigation a {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #B53030;
+    text-decoration: none;
+}
+
+.global-navigation a:hover {
+    color: #D65959;
+}
+
+.global-navigation .left {
+    float: left;
+    display: block;
+    width: 59%;
+}
+
+.global-navigation .right {
+    float: right;
+    display: block;
+    width: 41%;
+    text-align: right;
+}
+
+.global-navigation .left .nav,
+.global-navigation .right .social {
+    white-space: nowrap;
+}
+
+.global-navigation .left .nav li {
+    display: inline;
+    padding-right: 8%;
+}
+
+.global-navigation .right .social li {
+    display: inline;
+    padding-left: 8%;
+}
+
+/*
+* Social Links base colours from:
+* https://www.competethemes.com/social-media-colors/
+* 
+* LinkedIn: #007BB6;
+* Twitter: #00ACED;
+* Facebook: #3B5998;
+*/
+
+.global-navigation .social .linkedin {
+    color: #007BB6;
+}
+
+.global-navigation .social .linkedin:hover {
+    color: #209BD6;
+}
+
+.global-navigation .social .twitter {
+    color: #00ACED;
+}
+
+.global-navigation .social .twitter:hover {
+    color: #20CCFF;
+}
+
+.global-navigation .social .facebook {
+    color: #3B5998;
+}
+
+.global-navigation .social .facebook:hover {
+    color: #5B79B8;
+}

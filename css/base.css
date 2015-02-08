@@ -1,0 +1,27 @@
+/* 
+* Palette used from:
+* http://paletton.com/#uid=1000u0kryixiKqUnAmMwLdHJ38w
+* base: #941515;
+* dark: #6D0000;
+* darker: #440000;
+* light: #B53030;
+* lighter: #D65959;
+*/
+
+body {
+    background-color: #941515;
+    margin: 0 10%;
+}
+
+.content {
+    overflow: auto;
+    background-color: #880000;
+    min-height: 42px;
+    margin-bottom: 20px;
+    -webkit-border-bottom-left-radius: 25px;
+    -webkit-border-bottom-right-radius: 25px;
+    -moz-border-bottom-left-radius: 25px;
+    -moz-border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
