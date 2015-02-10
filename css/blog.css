@@ -1,0 +1,103 @@
+.content h3 {
+    text-align: center;
+    font-size: 24px;
+    font-family: sans-serif;
+    margin: 10px 0;
+    color: #B53030;
+}
+
+.content-filters {
+    padding-top: 5px;
+    overflow: hidden;
+}
+
+.content-filters .filter-wrapper {
+    float: left;
+    width: 33.33%;
+    width: calc(100% / 3);
+    position: relative;
+    height: auto;
+}
+
+.filter-blog-subject,
+.filter-keywords,
+.filter-sorts {
+    width: 80%;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.filter-blog-subject label,
+.filter-keywords label,
+.filter-sorts label {
+    display: block;
+    width: 50%;
+    margin: 0px auto 10px;
+    font-size: 18px;
+    color: #B53030;
+}
+
+.select2-container--default {
+    font-family: sans-serif;
+}
+
+.select2-container--default .select2-results__group {
+    font-weight: 700;
+}
+
+.content hr {
+    margin: 2% 3% 2%;
+    border-color: #B53030;
+    background-color: #B53030;
+}
+
+.content-listing-wrapper .content-listing {
+    width: 100%;
+}
+
+.content-listing .content-listing-block-wrapper {
+    float: left;
+    width: 33.33%;
+    width: calc(100% / 3);
+}
+
+.content-listing .content-listing-block-wrapper .content-listing-block {
+    width: 80%;
+    margin: 0 auto 20px;
+    background: #B53030;
+    border: 1px black solid;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+}
+
+
+.content-listing .content-listing-block-wrapper .content-listing-block img {
+    width: 92%;
+    padding: 4%;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+}
+
+.content-listing .content-listing-block-wrapper .content-listing-block h4 {
+    padding: 0 20px 10px;
+    text-align: center;
+    font-size: 120%;
+    font-family: sans-serif;
+}
+
+.content-listing .content-listing-block-wrapper .content-listing-block h4 a {
+    color: #880000;
+    text-decoration: none;
+}
+
+.content-listing .content-listing-block-wrapper .content-listing-block h4 a:hover {
+    color: #941515;
+    text-decoration: underline;
+}
+
+.content-listing .content-listing-block-wrapper .content-listing-block p {
+    font-family: sans-serif;
+    margin: 0 5% 5%;
+}
