@@ -18,6 +18,7 @@ body {
     background-color: #880000;
     min-height: 42px;
     margin-bottom: 20px;
+    font-family: sans-serif;
     -webkit-border-bottom-left-radius: 25px;
     -webkit-border-bottom-right-radius: 25px;
     -moz-border-bottom-left-radius: 25px;
