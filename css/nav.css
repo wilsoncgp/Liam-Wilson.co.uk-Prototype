@@ -97,3 +97,11 @@
 .global-navigation .social .facebook:hover {
     color: #5B79B8;
 }
+
+@media only screen
+and (min-width: 768px)
+and (max-width: 1024px) {
+    .global-navigation a {
+        font-size: 1em;
+    }
+}
